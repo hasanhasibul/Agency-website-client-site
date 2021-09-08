@@ -1,0 +1,15 @@
+.google-button{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding: 10px 20px;
+}
+.button-text{
+    padding-left: 70px;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+.p-6{
+    padding: 100px !important;
+}

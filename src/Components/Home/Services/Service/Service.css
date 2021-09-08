@@ -1,0 +1,15 @@
+.icon{
+    width: 60px;
+    text-align: center;
+}
+.text-color-purple{
+    color:#f63e7b;
+}
+.service-container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.col-md-4 a{
+    text-decoration: none;
+    color:none;
+}

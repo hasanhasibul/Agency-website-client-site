@@ -1,0 +1,14 @@
+.menuItems{
+    margin-left: 20%;
+}
+.menuItems li {
+    padding: 5px 10px;
+    color: #111430;
+}
+.login-button{
+    background-color: #f63e7b;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+}

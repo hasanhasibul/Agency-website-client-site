@@ -1,0 +1,11 @@
+.link-list li a {
+    list-style: none;
+    text-decoration: none !important;
+    font-size: 18px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link-list li{
+    list-style: none;
+    padding: 4px;
+}
