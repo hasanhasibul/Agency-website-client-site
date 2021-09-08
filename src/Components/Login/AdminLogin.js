@@ -30,7 +30,7 @@ const AdminLogin = () => {
                 // verify admin
                 if(email){
                     console.log("enter if statement");
-                    fetch('http://localhost:5000/checkAdmin',{
+                    fetch('https://damp-lake-99617.herokuapp.com/checkAdmin',{
                         method:'POST',
                         headers:{'Content-Type':'application/json'},
                         body:JSON.stringify({email})

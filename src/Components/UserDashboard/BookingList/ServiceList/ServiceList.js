@@ -14,7 +14,7 @@ const ServiceList = () => {
             }
       
         if (email) {
-            fetch('http://localhost:5000/findBookingWithEmail', {
+            fetch('https://damp-lake-99617.herokuapp.com/findBookingWithEmail', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email })

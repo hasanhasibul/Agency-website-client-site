@@ -24,7 +24,7 @@ const ServiceForm = () => {
         formData.append('des', service.des);
 
 
-        fetch('http://localhost:5000/addService',{
+        fetch('https://damp-lake-99617.herokuapp.com/addService',{
             method: 'POST',
             body: formData
         })

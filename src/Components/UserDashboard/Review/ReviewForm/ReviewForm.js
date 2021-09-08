@@ -24,7 +24,7 @@ const [file,setFile] = useState(null)
         formData.append('star',review.star);
 
 
-        fetch('http://localhost:5000/addReview',{
+        fetch('https://damp-lake-99617.herokuapp.com/addReview',{
             method:'POST',
             body:formData
         })

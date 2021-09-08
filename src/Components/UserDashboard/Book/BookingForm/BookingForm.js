@@ -16,7 +16,7 @@ const BookingForm = () => {
     const handlePayment =(paymentDetails)=>{
         const paymentData = {...bookData, ...service, ...paymentDetails}
 
-        fetch('http://localhost:5000/addPayment',{
+        fetch('https://damp-lake-99617.herokuapp.com/addPayment',{
             method:'POST',
             body:JSON.stringify(paymentData),
             headers:{'Content-Type': 'application/json'}

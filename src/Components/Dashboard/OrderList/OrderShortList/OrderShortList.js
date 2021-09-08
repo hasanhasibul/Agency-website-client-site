@@ -10,7 +10,7 @@ const OrderShortList = () => {
    
    
     useEffect(() => {
-        fetch('http://localhost:5000/getBooking')
+        fetch('https://damp-lake-99617.herokuapp.com/getBooking')
             .then(res => res.json())
             .then(data => {
                 console.log(data);
@@ -28,7 +28,7 @@ const OrderShortList = () => {
     console.log(statusId);
 
     const updateStatus =(statusId,status)=>{
-        fetch(`http://localhost:5000/updateStatus/${statusId}`,{
+        fetch(`https://damp-lake-99617.herokuapp.com/updateStatus/${statusId}`,{
                 method:'PATCH',
                 headers:{'Content-Type':'application/json'},
                 body:JSON.stringify({status:status})
